@@ -28,7 +28,7 @@ function Checkout() {
 				))}
 			</div>
 			<div className="flex justify-center my-12">
-				<button className="bg-primary text-white px-12 py-3 rounded">Checkout</button>
+				<button className="bg-primary text-white px-12 py-3 rounded shadow-lg hover:bg-purple-900">Checkout</button>
 			</div>
 		</div>
 	)

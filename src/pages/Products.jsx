@@ -69,7 +69,7 @@ function Products() {
 			<div className="mx-10 my-10">
 				<div className="flex justify-between mx-6">
 					<h1 className="text-4xl font-thin py-12 uppercase"><span className="font-bold pr-1">Men's</span> Wear</h1>
-					<img src={ShoppingCart} alt="shopping cart icon" className="w-8 h-8 self-center mr-4 cursor-pointer" onClick={() => navigate("/checkout")}/>
+					<img src={ShoppingCart} alt="shopping cart icon" className="w-8 h-8 self-center mr-4 cursor-pointer hover:scale-125 transition-all duration-200" onClick={() => navigate("/checkout")}/>
 				</div>
 				<div className="grid grid-cols-3 gap-4 gap-y-16">
 					{products_list.map((product, index) => (

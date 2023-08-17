@@ -157,18 +157,18 @@ function Login() {
 									null
 								}
 							</div>
-							<button className="bg-primary w-full px-4 py-3 rounded-full select-none text-white">
+							<button className="bg-primary w-full px-4 py-3 rounded-full select-none text-white shadow-lg hover:bg-purple-900">
 								{signUp ? "Sign Up" : "Login"}
 							</button>
 						</form>
 						<div className="pt-12 select-none">
 							{signUp ?
 								<p>
-									Already have an account? <span className="text-primary cursor-pointer" onClick={() => setSignUp(!signUp)}>Log In</span>
+									Already have an account? <span className="text-primary cursor-pointer hover:text-purple-900" onClick={() => setSignUp(!signUp)}>Log In</span>
 								</p>
 								:
 								<p>
-									Don't have an account? <span className="text-primary cursor-pointer" onClick={() => setSignUp(!signUp)}>Sign Up</span>
+									Don't have an account? <span className="text-primary cursor-pointer hover:text-purple-900" onClick={() => setSignUp(!signUp)}>Sign Up</span>
 								</p>
 							}
 							

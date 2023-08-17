@@ -15,8 +15,8 @@ function Navbar() {
 
 	return (
 		<nav className="flex justify-between mx-16">
-			<img src={JittoLogo} alt="logo" className="w-44 py-4"/>
-			<button className="self-center h-fit bg-primary px-6 py-3 rounded text-white" onClick={handleSignOut}>
+			<img src={JittoLogo} alt="logo" className="w-44 py-4 cursor-pointer" onClick={() => navigate("/products")}/>
+			<button className="self-center h-fit bg-primary px-6 py-3 rounded text-white shadow-lg hover:bg-purple-900" onClick={handleSignOut}>
 				Sign Out
 			</button>
 		</nav>
